@@ -2,12 +2,12 @@
 
 A responsive demo online clothing store built with HTML, CSS and Bootstrap 4 while learning front-end development.
 
-**Live demo:** add your GitHub Pages link here
+**Live demo:** https://toma-107.github.io/ecommerce-bootstrap-project/
 
 ## Pages
 - `index.html`: home page with banner slider, top brands and products
-- `p.html`: product listing with a collapsible winter collection menu
-- `pd.html`: product detail page
+- `product.html`: product listing with a collapsible winter collection menu
+- `productDetail.html`: product detail page
 - `signup.html`: sign-up form with phone number validation
 - `login.html`: login form
 
