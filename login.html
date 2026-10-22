@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classy Crest | Login</title>
+    <meta name="description" content="Log in to your Classy Crest account.">
+     <link rel="icon" type="image/jpg" href="image/x-logo.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/myscript.js"></script>
+
+     
+</head>
+
+<body onload="dateshow()" >
+    <section class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#e47200;">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo1.jpg" width="50" height="40" class="d-inline-block align-top" alt="Classy Crest logo">
+
+            </a>
+
+            <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productDetail.html">Product Detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+
+   
+
+    <section>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Login</li>
+            </ol>
+        </nav>
+    </section>
+
+    <div class="container ">
+        <h3 class="text-center ">Login Form</h3>
+    </div>
+
+    <div class="container my-5 col-md-6">
+
+        <form>
+    
+                <input type="text" class="form-control mb-2" id="inputEmail3" placeholder="Username" required>
+                 
+                <input type="password" class="form-control mb-2" id="inputPassword3" placeholder="Password" required>
+               
+                <button type="submit"onClick="return confirm('Do you want to submit?')"class="btn btn-warning w-100 ">Login</button>
+
+        </form>
+    </div>
+    
+    <section class=" bg-dark p-5 text-align text-white">
+        <div class="row ">
+            <div class="col-lg-4 mb-5 text-center">
+                <img src="image/logo1.jpg" alt="Classy Crest logo" class="mb-3 logo "><br>
+                <b><i>CLASSY CREST</i></b>
+                <p>Stylish, comfortable clothing for every season.</p>
+            </div>
+
+            <div class="col-lg-4 mb-5 ">
+                <div class="col">
+                    <h3>Quick Links</h3>
+                </div>
+                <ul class="nav flex-column ">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="productDetail.html">Product Detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4   ">
+                A demo online clothing store built with HTML, CSS and Bootstrap by Toma.
+            </div>
+
+        </div>
+    </section>
+
+    <footer class=" text-align text-center text-white p-3 " style="background-color: black;">
+        <div class="row">
+            <div class="col-5 "> &copy; 2026 Classy Crest. All rights reserved.</div>
+            <div class="col-3">
+                <p id="dateshow" style="text-align:center; ">(Bangladesh Standard Time)</p>
+            </div>
+            <div class="col-4">Designed By - <b><i>TOMA</i></b></div>
+
+        </div>
+    </footer>
+
+
+    <!-- jQuery library -->
+    <script src="js/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
